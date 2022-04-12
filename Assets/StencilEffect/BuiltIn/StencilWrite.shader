@@ -8,7 +8,7 @@ Shader "Unlit/StencilWrite"
     SubShader
     {
         Tags { "RenderType"="Opaque"
-                "Queue"="Geometry - 1" }
+                "Queue"="Geometry-1" }
 
         ColorMask 0
         Stencil {

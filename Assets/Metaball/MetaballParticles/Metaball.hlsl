@@ -1,3 +1,9 @@
+#define MAX_PARTICLES 256
+
+float4 _ParticlesPos[MAX_PARTICLES];
+float _ParticlesSize[MAX_PARTICLES];
+float _NumParticles;
+
 float GetDistanceSphere(float3 p, float3 center, float radius)
 {
     return length(p - center) - radius;

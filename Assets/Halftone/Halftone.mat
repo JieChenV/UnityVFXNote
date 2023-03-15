@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_LaserBeam
-  m_Shader: {fileID: -6465566751694194690, guid: 998948ab070ec7ec4b34d6173e4d06aa, type: 3}
+  m_Name: Halftone
+  m_Shader: {fileID: -6465566751694194690, guid: 7312f54ef58c240a498928a9e6fd4a42, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,14 +23,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_24ded6c668f34f499d9116665d691d4c:
-        m_Texture: {fileID: 2800000, guid: da05692d9ae3f7b8ea1a1812089d46aa, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_7152990896524f46b6dc643437774537:
-        m_Texture: {fileID: 2800000, guid: 307bae763c8d7bb6cb76bf40e29c6766, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -45,18 +37,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_0905dc2f055449eeab8fb579d53b9964: 50
-    - Vector1_3808b66a77b24c2097cdf6367719ee0c: 0.549
-    - Vector1_b6f1ff50e69241eca448c6ad639a8cd9: 2
-    - Vector1_cd21060f64db469c910ad4c6e90b3369: 0.31
+    - _DotDensity: 16.91
+    - _FirstEdge: 0.6
+    - _Offset: 1.14
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ShadowThreshhold: 0.8
     m_Colors:
-    - Color_2e610162d3214108b645cde7d7c92426: {r: 15.999998, g: 15.999998, b: 15.999998, a: 0}
-    - Vector2_3f4635e845f4441c93a3efccc039cabc: {r: -0.5, g: 0, b: 0, a: 0}
-    - Vector2_41674057b824468ea919d435c4ac64b6: {r: -0.5, g: 0, b: 0, a: 0}
+    - _DotColor: {r: 0.40313467, g: 0.8207547, b: 0.34456208, a: 0}
+    - _MainColor: {r: 0.8679245, g: 0.33980057, b: 0.33980057, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &1420086789584136840
+--- !u!114 &7323130736701624896
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
